@@ -3,12 +3,12 @@
 		title="REC.WEAR" titleLevel="Auto">
 		<m:content>
 			<m:Table backgroundDesign="Translucent" fixedLayout="true" growing="false" growingScrollToLoad="false" growingThreshold="20"
-				id="np-sap_m_Table-1445920619224-0GX" includeItemInSelection="false" inset="false" items="{/AthleteSet}" mode="None" modeAnimationOn="true"
+				id="np-sap_m_Table-1445920619224-0GX" includeItemInSelection="false" inset="false" items="{/AthleteSet}" mode= "None" modeAnimationOn="true"
 				noDataText="No data" rememberSelections="true" showNoData="true" showOverlay="false" showSeparators="All" showUnread="false"
 				swipeDirection="Both" visible="true" width="100%">
 				<m:swipeContent/>
 				<m:items>
-					<m:ColumnListItem id="np-sap_m_ColumnListItem-1445920619224-0GY" type="Active">
+					<m:ColumnListItem id="np-sap_m_ColumnListItem-1445920619224-0GY" type="Active" press="_onPressNpsapmColumnListItem14459206192240GY">
 						<m:cells>
 							<m:Image activeSrc="" decorative="true" densityAware="false"  id="np-sap_m_Image-1445920646099-0IL"
 								src="/RECwear/resources/{profilePicture}" />

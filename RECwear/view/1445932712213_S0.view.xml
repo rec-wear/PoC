@@ -1,0 +1,193 @@
+<mvc:View controllerName="generated.app.view.1445932712213_S0" xmlns:core="sap.ui.core" xmlns:form="sap.ui.layout.form"
+	xmlns:layout="sap.ui.layout" xmlns:m="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:uxap="sap.uxap">
+	<uxap:ObjectPageLayout height="100%" id="sap_uxap_ObjectPageLayout_0" showAnchorBar="true" showAnchorBarPopover="true"
+		showHeaderContent="true" showTitleInHeaderContent="true" subSectionLayout="TitleOnTop" upperCaseAnchorBar="true" useIconTabBar="false"
+		visible="true">
+		<uxap:headerTitle>
+			<uxap:ObjectPageHeader headerDesign="Light" id="sap_uxap_ObjectPageHeader_1" isActionAreaAlwaysVisible="true"
+				isObjectIconAlwaysVisible="false" isObjectSubtitleAlwaysVisible="false" isObjectTitleAlwaysVisible="false" objectImageShape="Circle"
+				objectImageURI="/public/resources/norman-ui-catalog-manager-client/assets/image-canvas.svg" objectSubtitle="" objectTitle="Thomas">
+				<uxap:actions/>
+				<uxap:breadCrumbsLinks/>
+				<uxap:navigationBar/>
+			</uxap:ObjectPageHeader>
+		</uxap:headerTitle>
+		<uxap:headerContent>
+			<m:VBox alignItems="Stretch" direction="Column" displayInline="false" fitContainer="false" id="sap_m_VBoxLinks_3" justifyContent="Start"
+				renderType="Div" visible="true" width="auto">
+				<m:items>
+					<form:Form id="np-sap_ui_layout_form_Form-1445936383465-080" visible="true" width="880px">
+						<form:formContainers>
+							<form:FormContainer id="np-sap_ui_layout_form_FormContainer-1445936383465-081" visible="true">
+								<form:formElements>
+									<form:FormElement id="np-sap_ui_layout_form_FormElement-1445936383465-082" visible="true">
+										<form:fields>
+											<m:Text id="np-sap_m_Text-1445936383465-083" maxLines="1" text="SAP InnoJam School" textAlign="Begin" textDirection="Inherit" width="300px"
+												wrapping="true"/>
+										</form:fields>
+										<form:label>
+											<m:Label design="Bold" id="np-sap_m_Label-1445936383465-084" required="false" text="School" textAlign="Begin" textDirection="Inherit"
+												width="auto"/>
+										</form:label>
+									</form:FormElement>
+									<form:FormElement id="np-sap_ui_layout_form_FormElement-1445936383465-085" visible="true">
+										<form:fields>
+											<m:Text id="np-sap_m_Text-1445936383465-086" maxLines="1" text="Sunnyvale" textAlign="Begin" textDirection="Inherit" width="300px"
+												wrapping="true"/>
+										</form:fields>
+										<form:label>
+											<m:Label design="Bold" id="np-sap_m_Label-1445936383465-087" required="false" text="Location" textAlign="Begin" textDirection="Inherit"
+												width="auto"/>
+										</form:label>
+									</form:FormElement>
+									<form:FormElement id="np-sap_ui_layout_form_FormElement-1445936383465-088" visible="true">
+										<form:fields>
+											<m:Text id="np-sap_m_Text-1445936383465-089" maxLines="1" text="3.0/4.0" textAlign="Begin" textDirection="Inherit" width="300px"
+												wrapping="true"/>
+										</form:fields>
+										<form:label>
+											<m:Label design="Bold" id="np-sap_m_Label-1445936383465-08A" required="false" text="GPA" textAlign="Begin" textDirection="Inherit"
+												width="auto"/>
+										</form:label>
+									</form:FormElement>
+									<form:FormElement id="np-sap_ui_layout_form_FormElement-1445936383465-08B" visible="true">
+										<form:fields>
+											<m:Text id="np-sap_m_Text-1445936383465-08C" maxLines="1" text="7th" textAlign="Begin" textDirection="Inherit" width="300px" wrapping="true"/>
+										</form:fields>
+										<form:label>
+											<m:Label design="Bold" id="np-sap_m_Label-1445936383465-08D" required="false" text="Year" textAlign="Begin" textDirection="Inherit"
+												width="auto"/>
+										</form:label>
+									</form:FormElement>
+								</form:formElements>
+							</form:FormContainer>
+						</form:formContainers>
+						<form:layout>
+							<form:ResponsiveGridLayout columnsL="2" columnsM="1" emptySpanL="0" emptySpanM="0" emptySpanS="0"
+								id="np-sap_ui_layout_form_ResponsiveGridLayout-1445936383465-08E" labelSpanL="4" labelSpanM="2" labelSpanS="12" visible="true"/>
+						</form:layout>
+						<form:title/>
+					</form:Form>
+				</m:items>
+				<m:layoutData/>
+			</m:VBox>
+			<m:Label design="Standard" id="np-sap_m_Label-1445936259771-07W" required="false" text="19" textAlign="Begin" textDirection="Inherit"
+				width="auto"/>
+			<m:Label design="Standard" id="np-sap_m_Label-1445936265973-07Y" required="false" text="Male" textAlign="Begin" textDirection="Inherit"
+				width="auto"/>
+		</uxap:headerContent>
+		<uxap:sections>
+			<uxap:ObjectPageSection id="np-sap_uxap_ObjectPageSection-1445935013283-01E" showTitle="false" title="" titleUppercase="true" visible="true">
+				<uxap:subSections>
+					<uxap:ObjectPageSubSection id="np-sap_uxap_ObjectPageSubSection-1445935013283-01F" mode="Expanded" title="Sub Section Title">
+						<uxap:blocks>
+							<layout:HorizontalLayout id="np-sap_ui_layout_HorizontalLayout-1445935226120-01P" visible="true">
+								<layout:content>
+									<layout:VerticalLayout id="np-sap_ui_layout_VerticalLayout2-1445935256112-01U" visible="true" width="440px">
+										<layout:content>
+											<form:Form id="np-sap_ui_layout_form_Form-1445935269311-024" visible="true" width="880px">
+												<form:formContainers>
+													<form:FormContainer id="np-sap_ui_layout_form_FormContainer-1445935269311-025" visible="true">
+														<form:formElements>
+															<form:FormElement id="np-sap_ui_layout_form_FormElement-1445935269311-026" visible="true">
+																<form:fields>
+																	<m:Text id="np-sap_m_Text-1445935269311-027" maxLines="1" text="80%" textAlign="Begin" textDirection="Inherit" width="300px" wrapping="true"/>
+																</form:fields>
+																<form:label>
+																	<m:Label design="Bold" id="np-sap_m_Label-1445935269311-028" required="false" text="Pitcher" textAlign="Begin" textDirection="Inherit"
+																		width="auto"/>
+																</form:label>
+															</form:FormElement>
+															<form:FormElement id="np-sap_ui_layout_form_FormElement-1445935269311-029" visible="true">
+																<form:fields>
+																	<m:Text id="np-sap_m_Text-1445935269311-02A" maxLines="1" text="50%" textAlign="Begin" textDirection="Inherit" width="300px" wrapping="true"/>
+																</form:fields>
+																<form:label>
+																	<m:Label design="Bold" id="np-sap_m_Label-1445935269311-02B" required="false" text="Shortstop" textAlign="Begin" textDirection="Inherit"
+																		width="auto"/>
+																</form:label>
+															</form:FormElement>
+														</form:formElements>
+													</form:FormContainer>
+												</form:formContainers>
+												<form:layout>
+													<form:ResponsiveGridLayout columnsL="2" columnsM="1" emptySpanL="0" emptySpanM="0" emptySpanS="0"
+														id="np-sap_ui_layout_form_ResponsiveGridLayout-1445935269311-02I" labelSpanL="4" labelSpanM="2" labelSpanS="12" visible="true"/>
+												</form:layout>
+												<form:title>
+													<core:Title emphasized="false" id="np-sap_ui_core_Title-1445935269311-02J" level="Auto" text="Recommended Role"/>
+												</form:title>
+											</form:Form>
+											<form:SimpleForm breakpointL="1024" breakpointM="600" columnsL="2" columnsM="1" editable="false" emptySpanL="0" emptySpanM="0"
+												emptySpanS="0" id="np-sap_ui_layout_form_SimpleForm-1445935282850-03C" labelMinWidth="192" labelSpanL="4" labelSpanM="2" labelSpanS="12"
+												layout="ResponsiveGridLayout" maxContainerCols="2" minWidth="-1" visible="true">
+												<form:title>
+													<core:Title emphasized="false" id="np-sap_ui_core_Title-1445935282850-03D" level="Auto" text="Averrage Performance"/>
+												</form:title>
+												<form:content/>
+											</form:SimpleForm>
+											<m:HBox alignItems="Center" direction="Row" displayInline="false" fitContainer="false" height="48px" id="np-sap_m_HBox-1445935368917-03U"
+												justifyContent="Start" renderType="Div" visible="true">
+												<m:items>
+													<m:ComboBox editable="true" enabled="true" id="np-sap_m_ComboBox-1445935389920-046" maxWidth="100%" selectedItemId="" selectedKey=""
+														showValueStateMessage="true" valueState="None" visible="true" width="192px">
+														<m:items>
+															<core:Item enabled="true" id="np-sap_ui_core_Item-1445935389920-047" text="Last Month" textDirection="Inherit"/>
+															<core:Item enabled="true" id="np-sap_ui_core_Item-1445935389920-048" text="Last Week" textDirection="Inherit"/>
+														</m:items>
+													</m:ComboBox>
+													<m:Label design="Standard" id="np-sap_m_Label-1445935404560-04F" required="false" text="23" textAlign="Right" textDirection="Inherit"
+														width="auto"/>
+												</m:items>
+												<m:layoutData/>
+											</m:HBox>
+										</layout:content>
+									</layout:VerticalLayout>
+									<layout:VerticalLayout id="np-sap_ui_layout_VerticalLayout2-1445935257607-01Z" visible="true" width="440px">
+										<layout:content>
+											<form:SimpleForm breakpointL="1024" breakpointM="600" columnsL="2" columnsM="1" editable="false" emptySpanL="0" emptySpanM="0"
+												emptySpanS="0" id="np-sap_ui_layout_form_SimpleForm-1445935643104-05U" labelMinWidth="192" labelSpanL="4" labelSpanM="2" labelSpanS="12"
+												layout="ResponsiveGridLayout" maxContainerCols="2" minWidth="-1" visible="true">
+												<form:title>
+													<core:Title emphasized="false" id="np-sap_ui_core_Title-1445935643104-05V" level="Auto" text="Development Curves"/>
+												</form:title>
+												<form:content/>
+											</form:SimpleForm>
+											<layout:VerticalLayout id="np-sap_ui_layout_VerticalLayout2-1445935651480-06C" visible="true" width="880px">
+												<layout:content>
+													<m:HBox alignItems="Stretch" direction="Row" displayInline="false" fitContainer="false" height="95px" id="np-sap_m_HBox-1445935704862-06H"
+														justifyContent="Start" renderType="Div" visible="true">
+														<m:items>
+															<m:Label design="Standard" id="np-sap_m_Label-1445935723633-06T" required="false" text="Running" textAlign="Begin" textDirection="Inherit"
+																width="auto"/>
+															<m:Image activeSrc="" decorative="true" densityAware="false" height="88px" id="np-sap_m_Image-1445935735804-06V"
+																src="/public/resources/norman-ui-catalog-manager-client/assets/image-canvas.svg" width="370px"/>
+														</m:items>
+														<m:layoutData/>
+													</m:HBox>
+													<m:HBox alignItems="Stretch" direction="Row" displayInline="false" fitContainer="false" height="95px" id="np-sap_m_HBox-1445935808618-070"
+														justifyContent="Start" renderType="Div" visible="true">
+														<m:items>
+															<m:Label design="Standard" id="np-sap_m_Label-1445935833050-07O" required="false" text="Throwing Speed" textAlign="Begin"
+																textDirection="Inherit" width="auto"/>
+															<m:Image activeSrc="" decorative="true" densityAware="false" height="91px" id="np-sap_m_Image-1445935842805-07Q"
+																src="/public/resources/norman-ui-catalog-manager-client/assets/image-canvas.svg" width="371px"/>
+														</m:items>
+														<m:layoutData/>
+													</m:HBox>
+												</layout:content>
+											</layout:VerticalLayout>
+										</layout:content>
+									</layout:VerticalLayout>
+								</layout:content>
+							</layout:HorizontalLayout>
+						</uxap:blocks>
+						<uxap:moreBlocks/>
+						<uxap:actions/>
+					</uxap:ObjectPageSubSection>
+				</uxap:subSections>
+				<uxap:customAnchorBarButton/>
+			</uxap:ObjectPageSection>
+		</uxap:sections>
+	</uxap:ObjectPageLayout>
+</mvc:View>

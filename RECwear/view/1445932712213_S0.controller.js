@@ -1,11 +1,11 @@
 sap.ui.define(["sap/ui/core/mvc/Controller"], function(BaseController) {
 	"use strict";
 
-	return BaseController.extend("generated.app.view.1445915820019_S1", {
+	return BaseController.extend("generated.app.view.1445932712213_S0", {
 
 		onInit: function() {
 			this.oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-			this.oRouter.getTarget("1445915820019_S1").attachDisplay(jQuery.proxy(this.handleRouteMatched, this));
+			this.oRouter.getTarget("1445932712213_S0").attachDisplay(jQuery.proxy(this.handleRouteMatched, this));
 		},
 		handleRouteMatched: function(oEvent) {
 			var params = {};
@@ -21,15 +21,6 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function(BaseController) {
 
 			}
 
-		},
-		_onPressNpsapmColumnListItem14459206192240GY: function(oEvent) {
-			sap.ui.core.UIComponent.getRouterFor(this).navTo("1445932712213_S0");
 		}
-		
-		/*handleDetailsPress : function(oEvent) {
-			this.nav.to("1445932712213_S0", oEvent);
-			//MessageToast.show("Details for product with id " + this.getView().getModel().getProperty("ProductId", oEvent.getSource().getBindingContext()));
-		}*/
-		
 	});
 }, /* bExport= */ true);
