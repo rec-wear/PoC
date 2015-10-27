@@ -1,0 +1,19 @@
+<mvc:View controllerName="generated.app.view.1445917078454_S3" xmlns:m="sap.m" xmlns:mvc="sap.ui.core.mvc">
+	<m:Page enableScrolling="true" id="sap_Responsive_Page_0" showFooter="true" showHeader="true" showNavButton="false" showSubHeader="true"
+		title="Responsive Page Title" titleLevel="Auto">
+		<m:content/>
+		<m:footer>
+			<m:Toolbar design="Solid" enabled="true" height="35px" id="sap_m_Toolbar_1" visible="true" width="auto">
+				<m:tooltip/>
+				<m:content>
+					<m:ToolbarSpacer id="sap_m_ToolbarSpacer_2" visible="true" width=""/>
+					<m:Button enabled="true" iconDensityAware="false" iconFirst="false" id="sap_m_Button_3" text="Accept" type="Accept" width="auto"/>
+					<m:Button enabled="true" iconDensityAware="false" iconFirst="false" id="sap_m_Button_4" text="Reject" type="Reject" width="auto"/>
+				</m:content>
+			</m:Toolbar>
+		</m:footer>
+		<m:headerContent/>
+		<m:subHeader/>
+		<m:customHeader/>
+	</m:Page>
+</mvc:View>

@@ -1,0 +1,64 @@
+<mvc:View controllerName="generated.app.view.1445915820019_S1" xmlns:m="sap.m" xmlns:mvc="sap.ui.core.mvc">
+	<m:Page enableScrolling="true" id="sap_IconTabBar_Page_0" showFooter="true" showHeader="true" showNavButton="false" showSubHeader="true"
+		title="Detail Page" titleLevel="Auto">
+		<m:content>
+			<m:Table backgroundDesign="Translucent" fixedLayout="true" growing="false" growingScrollToLoad="false" growingThreshold="20"
+				id="np-sap_m_Table-1445920619224-0GX" includeItemInSelection="false" inset="false" items="{/P1Set}" mode="None" modeAnimationOn="true"
+				noDataText="No data" rememberSelections="true" showNoData="true" showOverlay="false" showSeparators="All" showUnread="false"
+				swipeDirection="Both" visible="true" width="100%">
+				<m:swipeContent/>
+				<m:items>
+					<m:ColumnListItem id="np-sap_m_ColumnListItem-1445920619224-0GY" type="Active">
+						<m:cells>
+							<m:Image activeSrc="" decorative="true" densityAware="false" height="50px" id="np-sap_m_Image-1445920646099-0IL"
+								src="/public/resources/norman-ui-catalog-manager-client/assets/image-canvas.svg" width="50px"/>
+							<m:ObjectIdentifier id="np-sap_m_ObjectIdentifier-1445920668216-0IN" text="{Name}" title="" titleActive="false" visible="true"/>
+							<m:ObjectNumber id="np-sap_m_ObjectNumber-1445920695040-0IP" number="{Age}" state="None" unit=""/>
+						</m:cells>
+					</m:ColumnListItem>
+				</m:items>
+				<m:infoToolbar/>
+				<m:headerToolbar/>
+				<m:columns>
+					<m:Column demandPopin="true" hAlign="Begin" id="np-sap_m_Column_Product-1445920619243-0HE" mergeDuplicates="false"
+						mergeFunctionName="getText" minScreenWidth="Tablet" popinDisplay="Block" vAlign="Inherit" width="auto">
+						<m:header>
+							<m:Text id="np-sap_m_Text-1445920619243-0HF" maxLines="1" text="Image" textAlign="Begin" textDirection="Inherit" width="auto"
+								wrapping="true"/>
+						</m:header>
+						<m:footer/>
+					</m:Column>
+					<m:Column demandPopin="true" hAlign="Begin" id="np-sap_m_Column_Supplier-1445920619243-0HG" mergeDuplicates="false"
+						mergeFunctionName="getText" minScreenWidth="Tablet" popinDisplay="Block" vAlign="Inherit" width="auto">
+						<m:header>
+							<m:Text id="np-sap_m_Text-1445920619243-0HH" maxLines="1" text="Supplier" textAlign="Begin" textDirection="Inherit" width="auto"
+								wrapping="true"/>
+						</m:header>
+						<m:footer/>
+					</m:Column>
+					<m:Column demandPopin="true" hAlign="Begin" id="np-sap_m_Column_Price-1445920619243-0HI" mergeDuplicates="false" mergeFunctionName="getText"
+						minScreenWidth="Tablet" popinDisplay="Block" vAlign="Inherit" width="auto">
+						<m:header>
+							<m:Text id="np-sap_m_Text-1445920619243-0HJ" maxLines="1" text="Price" textAlign="Begin" textDirection="Inherit" width="auto"
+								wrapping="true"/>
+						</m:header>
+						<m:footer/>
+					</m:Column>
+				</m:columns>
+			</m:Table>
+		</m:content>
+		<m:footer>
+			<m:Toolbar design="Solid" enabled="true" height="35px" id="sap_m_Toolbar_39" visible="true" width="auto">
+				<m:tooltip/>
+				<m:content>
+					<m:ToolbarSpacer id="sap_m_ToolbarSpacer_40" visible="true" width=""/>
+					<m:Button enabled="true" iconDensityAware="false" iconFirst="false" id="sap_m_Button_41" text="Deny" type="Accept" width="auto"/>
+					<m:Button enabled="true" iconDensityAware="false" iconFirst="false" id="sap_m_Button_42" text="Reject" type="Reject" width="auto"/>
+				</m:content>
+			</m:Toolbar>
+		</m:footer>
+		<m:headerContent/>
+		<m:subHeader/>
+		<m:customHeader/>
+	</m:Page>
+</mvc:View>
