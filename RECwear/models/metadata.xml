@@ -5,6 +5,7 @@
 			<EntityContainer Name="8378a16ef8d079bf0af1bf8b_Entities" m:IsDefaultEntityContainer="true">
 				<EntitySet EntityType="8378a16ef8d079bf0af1bf8b.Player" Name="PlayerSet" sap:creatable="true" sap:deletable="true" sap:updatable="true"/>
 				<EntitySet EntityType="8378a16ef8d079bf0af1bf8b.P1" Name="P1Set" sap:creatable="true" sap:deletable="true" sap:updatable="true"/>
+				<EntitySet EntityType="8378a16ef8d079bf0af1bf8b.Athlete" Name="AthleteSet" sap:creatable="true" sap:deletable="true" sap:updatable="true"/>
 			</EntityContainer>
 			<EntityType Name="Player">
 				<Key>
@@ -22,7 +23,44 @@
 				<Property Name="Name" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="Name" sap:updatable="true"/>
 				<Property Name="Age" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="Age" sap:updatable="true"/>
 			</EntityType>
-	
+			<EntityType Name="Athlete">
+				<Key>
+					<PropertyRef Name="ID"/>
+				</Key>
+				<Property Name="ID" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="ID" sap:updatable="true"/>
+				<Property Name="name" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="name" sap:updatable="true"/>
+				<Property Name="dateOfBirth" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="dateOfBirth" sap:updatable="true"/>
+				<Property Name="sex" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="sex" sap:updatable="true"/>
+				<Property Name="address" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="address" sap:updatable="true"/>
+				<Property Name="school" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="school" sap:updatable="true"/>
+				<Property Name="grade" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="grade" sap:updatable="true"/>
+				<Property Name="gpa" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="gpa" sap:updatable="true"/>
+				<Property Name="description" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="description" sap:updatable="true"/>
+				<Property Name="email" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="email" sap:updatable="true"/>
+				<Property Name="phone" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="phone" sap:updatable="true"/>
+				<Property Name="upperBody" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="upperBody" sap:updatable="true"/>
+				<Property Name="lowerBody" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="lowerBody" sap:updatable="true"/>
+				<Property Name="foot" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="foot" sap:updatable="true"/>
+				<Property Name="profilePicture" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="profilePicture" sap:updatable="true"/>
+				<Property Name="hasClub" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="hasClub" sap:updatable="true"/>
+				<Property Name="isPublished" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="isPublished" sap:updatable="true"/>
+				<Property Name="baseball" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="baseball" sap:updatable="true"/>
+				<Property Name="soccer" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="soccer" sap:updatable="true"/>
+				<Property Name="football" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="football" sap:updatable="true"/>
+				<Property Name="sportsPicture" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="sportsPicture" sap:updatable="true"/>
+				<Property Name="developmentCurvePicture" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="developmentCurvePicture" sap:updatable="true"/>
+				<Property Name="firstRec" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="firstRec" sap:updatable="true"/>
+				<Property Name="firstRecValue" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="firstRecValue" sap:updatable="true"/>
+				<Property Name="secondRec" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="secondRec" sap:updatable="true"/>
+				<Property Name="secondRecValue" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="secondRecValue" sap:updatable="true"/>
+				<Property Name="thirdRec" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="thirdRec" sap:updatable="true"/>
+				<Property Name="thirdRecValue" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="thirdRecValue" sap:updatable="true"/>
+				<Property Name="steps" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="steps" sap:updatable="true"/>
+				<Property Name="bloodPressure" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="bloodPressure" sap:updatable="true"/>
+				<Property Name="heartRate" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="heartRate" sap:updatable="true"/>
+				<Property Name="height" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="height" sap:updatable="true"/>
+				<Property Name="weight" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="weight" sap:updatable="true"/>
+			</EntityType>
 		</Schema>
 	</edmx:DataServices>
 </edmx:Edmx>
