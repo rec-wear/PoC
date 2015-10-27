@@ -5,8 +5,8 @@
 		visible="true">
 		<uxap:headerTitle>
 			<uxap:ObjectPageHeader headerDesign="Light" id="sap_uxap_ObjectPageHeader_1" isActionAreaAlwaysVisible="true"
-				isObjectIconAlwaysVisible="false" isObjectSubtitleAlwaysVisible="false" isObjectTitleAlwaysVisible="false" objectImageShape="Circle"
-				objectImageURI="/public/resources/norman-ui-catalog-manager-client/assets/image-canvas.svg" objectSubtitle="" objectTitle="Thomas">
+				isObjectIconAlwaysVisible="True" isObjectSubtitleAlwaysVisible="false" isObjectTitleAlwaysVisible="false" objectImageShape="Circle"
+				objectImageURI="/RECwear/resources/tm.png" objectSubtitle="" objectTitle="Thomas">
 				<uxap:actions/>
 				<uxap:breadCrumbsLinks/>
 				<uxap:navigationBar/>
@@ -122,7 +122,7 @@
 												emptySpanS="0" id="np-sap_ui_layout_form_SimpleForm-1445935282850-03C" labelMinWidth="192" labelSpanL="4" labelSpanM="2" labelSpanS="12"
 												layout="ResponsiveGridLayout" maxContainerCols="2" minWidth="-1" visible="true">
 												<form:title>
-													<core:Title emphasized="false" id="np-sap_ui_core_Title-1445935282850-03D" level="Auto" text="Averrage Performance"/>
+													<core:Title emphasized="false" id="np-sap_ui_core_Title-1445935282850-03D" level="Auto" text="Average Performance"/>
 												</form:title>
 												<form:content/>
 											</form:SimpleForm>
@@ -158,17 +158,17 @@
 													<m:HBox alignItems="Stretch" direction="Row" displayInline="false" fitContainer="false" height="95px" id="np-sap_m_HBox-1445935704862-06H"
 														justifyContent="Start" renderType="Div" visible="true">
 														<m:items>
-															<m:Label design="Standard" id="np-sap_m_Label-1445935723633-06T" required="false" text="Running" textAlign="Begin" textDirection="Inherit"
+															<m:Label design="Bold" id="np-sap_m_Label-1445935723633-06T" required="false" text="Running" textAlign="Begin" textDirection="Inherit"
 																width="auto"/>
 															<m:Image activeSrc="" decorative="true" densityAware="false" height="88px" id="np-sap_m_Image-1445935735804-06V"
-																src="/public/resources/norman-ui-catalog-manager-client/assets/image-canvas.svg" width="370px"/>
+																src="/public/resources/norman-ui-catalog-manager-client/assets/image-canvas.svg" width="370px" />
 														</m:items>
 														<m:layoutData/>
 													</m:HBox>
 													<m:HBox alignItems="Stretch" direction="Row" displayInline="false" fitContainer="false" height="95px" id="np-sap_m_HBox-1445935808618-070"
 														justifyContent="Start" renderType="Div" visible="true">
 														<m:items>
-															<m:Label design="Standard" id="np-sap_m_Label-1445935833050-07O" required="false" text="Throwing Speed" textAlign="Begin"
+															<m:Label design="Bold" id="np-sap_m_Label-1445935833050-07O" required="false" text="Throwing Speed" textAlign="Begin"
 																textDirection="Inherit" width="auto"/>
 															<m:Image activeSrc="" decorative="true" densityAware="false" height="91px" id="np-sap_m_Image-1445935842805-07Q"
 																src="/public/resources/norman-ui-catalog-manager-client/assets/image-canvas.svg" width="371px"/>

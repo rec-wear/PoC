@@ -25,7 +25,7 @@ sap.ui.core.UIComponent.extend("generated.app.Component", {
 				clearTarget: false,
 				controlAggregation: "detailPages",
 				bypassed: {
-					target: ["1445915820019_S1", "1445915820018_S0", "1445932712213_S0"]
+					target: ["1445915820019_S1", "1445915820018_S0", "1445931102608_S5", "1445932712213_S0"]
 				}
 			},
 			routes: [{
@@ -52,6 +52,11 @@ sap.ui.core.UIComponent.extend("generated.app.Component", {
 				pattern: "",
 				name: "default",
 				target: ["1445915820019_S1", "1445915820018_S0"]
+			},
+			{
+				pattern: "1445915820018_S0/1445931102608_S5",
+				name: "1445931102608_S5",
+				target: ["1445915820018_S0", "1445931102608_S5"]
 			},
 			{ pattern: "1445915820018_S0/1445932712213_S0",
 				name: "1445932712213_S0",
@@ -93,6 +98,12 @@ sap.ui.core.UIComponent.extend("generated.app.Component", {
 					viewName: "1445932712213_S0",
 					viewId: "1445932712213_S0",
 					viewLevel: "1"
+				},
+				"1445931102608_S5": {
+					controlAggregation: "detailPages",
+					viewName: "1445931102608_S5",
+					viewId: "1445931102608_S5",
+					viewLevel: "2"
 				}
 			}
 		}
