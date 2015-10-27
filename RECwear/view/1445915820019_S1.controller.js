@@ -24,6 +24,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function(BaseController) {
 		},
 		_onPressNpsapmColumnListItem14459206192240GY: function(oEvent) {
 			sap.ui.core.UIComponent.getRouterFor(this).navTo("1445932712213_S0");
+			console.log(this);
 		}
 		
 		/*handleDetailsPress : function(oEvent) {
