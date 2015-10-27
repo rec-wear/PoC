@@ -115,7 +115,6 @@
 							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921578567-0OR" text="Yes" key="TRUE" textDirection="Inherit"/>
 						</m:items>
 					</m:ComboBox>
-					<m:Button class="searchButton" text="Search"></m:Button>
 				</form:content>
 			</form:SimpleForm>
 			
