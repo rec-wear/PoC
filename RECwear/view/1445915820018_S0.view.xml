@@ -8,7 +8,7 @@
 				layout="ResponsiveGridLayout" maxContainerCols="2" minWidth="-1" visible="true">
 				<form:title/>
 				<form:content>
-					<m:Label design="Standard" id="np-sap_m_Label-1445920406444-0CY" required="false" text="Date of Birth" textAlign="Begin"
+					<m:Label design="Standard" id="np-sap_m_Label-1445920406444-0CY" required="false" text="Date of Birth (Range)" textAlign="Begin"
 						textDirection="Inherit" width="auto"/>
 						
 			<layout:AbsoluteLayout horizontalScrolling="Auto" id="ABSOLUTE-lt" verticalScrolling="Auto" height="50px">
@@ -17,9 +17,9 @@
 						<layout:control >
 							<layout1:HorizontalLayout id="np-sap_ui_layout_HorizontalLayout-1445925598924-00U" visible="true" class="horizontal">
 								<layout1:content>
-									<m:DateTimeInput enabled="true" id="np-sap_m_DateTimeInput-1445921322863-0NR" placeholder="Enter a date or date and time..." type="Date"
+									<m:DateTimeInput enabled="true" id="np-sap_m_DateTimeInput-1445921322863-0NR" placeholder="From...." type="Date"
 									visible="true" width="120px"/>
-								<m:DateTimeInput enabled="true" id="np-sap_m_DateTimeInput-1445921322864-0NR" placeholder="Enter a date or date and time..." type="Date"
+								<m:DateTimeInput enabled="true" id="np-sap_m_DateTimeInput-1445921322864-0NR" placeholder="To..." type="Date"
 						visible="true" width="120px"/>
 								</layout1:content>
 							</layout1:HorizontalLayout>
@@ -31,87 +31,88 @@
 					
 					<m:Label design="Standard" id="np-sap_m_Label-1445921345674-0NT" required="false" text="Gender" textAlign="Begin" textDirection="Inherit"
 						width="auto"/>
-					<m:ComboBox editable="true" enabled="true" id="np-sap_m_ComboBox-1445921387509-0NV" maxWidth="100%" selectedItemId="" selectedKey=""
-						showValueStateMessage="true" valueState="None" visible="true" width="192px">
+					<m:ComboBox editable="true" enabled="true" id="np-sap_m_ComboBox-1445921387509-0NV" maxWidth="100%" selectedItemId="" selectedKey="{search>/sex}"
+						showValueStateMessage="true" valueState="None" visible="true" width="192px" selectionChange="applyFilter">
 						<m:items>
-							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921387510-0NW" text="Female" textDirection="Inherit"/>
-							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921387510-0NX" text="Male" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921387510-0NW" text="Female" key="Female" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921387510-0NX" text="Male" key="Male"  textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921387510-0NY" text="Both" key=""  textDirection="Inherit"/>
 						</m:items>
 					</m:ComboBox>
 					<m:Label design="Standard" id="np-sap_m_Label-1445921403007-0O4" required="false" text="Athlete position" textAlign="Begin"
 						textDirection="Inherit" width="auto"/>
-					<m:ComboBox editable="true" enabled="true" id="np-sap_m_ComboBox-1445921421004-0O6" maxWidth="100%" selectedItemId="" selectedKey=""
+					<m:ComboBox editable="true" enabled="true" id="np-sap_m_ComboBox-1445921421004-0O6" maxWidth="100%" selectedItemId="" selectedKey="{search>/firstRec}"
 						showValueStateMessage="true" valueState="None" visible="true" width="192px">
 						<m:items>
-							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-0O7" text="Catcher" textDirection="Inherit"/>
-							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-0O8" text="Pitcher" textDirection="Inherit"/>
-							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-0O9" text="First Base" textDirection="Inherit"/>
-							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-010" text="Second Base" textDirection="Inherit"/>
-							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-011" text="Third Base" textDirection="Inherit"/>
-							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-012" text="Outfielder" textDirection="Inherit"/>
-							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-013" text="Shortstop" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-0O7" text="Catcher" key="1" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-0O8" text="Pitcher" key="2" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-0O9" text="First Base" key="3" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-010" text="Second Base" key="4" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-011" text="Third Base" key="5" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-012" text="Outfielder" key="6" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-013" text="Shortstop" key="7" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-014" text="Any" key="" textDirection="Inherit"/>
 						</m:items>
 					</m:ComboBox>
 					<m:Label design="Standard" id="np-sap_m_Label-1445921427397-0OF" required="false" text="GPA" textAlign="Begin" textDirection="Inherit"
 						width="auto"/>
 					<m:Input dateFormat="YYYY-MM-dd" fieldWidth="50%" filterSuggests="true" id="np-sap_m_Input-1445921439699-0OH" maxLength="0"
 						showSuggestion="false" showTableSuggestionValueHelp="true" showValueHelp="false" startSuggestion="1" type="Text" valueHelpOnly="false"
-						valueLiveUpdate="false" width="200px">
+						valueLiveUpdate="false" width="200px" placeholder="Any">
 						<m:suggestionColumns/>
 						<m:suggestionItems/>
 						<m:suggestionRows/>
 					</m:Input>
-					<layout:AbsoluteLayout horizontalScrolling="Auto" id="ABSOLUTE-lt1" verticalScrolling="Auto" height="70px">
-				<layout:positions>
-					<layout:PositionContainer id="ABSOLUTE-cw01" >
-						<layout:control >
-							<layout1:HorizontalLayout id="np-sap_ui_layout_HorizontalLayout-1445925598925-00U" visible="true" class="horizontal">
-								<layout1:content>
-									<m:Label design="Standard" id="np-sap_m_Label-1445921446783-0OJ" required="false" text="Distance from" textAlign="Begin"
-						textDirection="Inherit" width="auto"/>
-					<m:Input dateFormat="YYYY-MM-dd" fieldWidth="50%" filterSuggests="true" id="np-sap_m_Input-1445921473507-0OL" maxLength="0"
-						showSuggestion="false" showTableSuggestionValueHelp="true" showValueHelp="false" startSuggestion="1" type="Text" valueHelpOnly="false"
-						valueLiveUpdate="false" width="150px">
-						<m:suggestionColumns/>
-						<m:suggestionItems/>
-						<m:suggestionRows/>
-					</m:Input>
-								</layout1:content>
-							</layout1:HorizontalLayout>
-						</layout:control>
-					</layout:PositionContainer>
-				</layout:positions>
-			</layout:AbsoluteLayout>
-			<layout:AbsoluteLayout horizontalScrolling="Auto" id="ABSOLUTE-lt2" verticalScrolling="Auto" height="70px">
-				<layout:positions>
-					<layout:PositionContainer id="ABSOLUTE-cw02" >
-						<layout:control >
-							<layout1:HorizontalLayout id="np-sap_ui_layout_HorizontalLayout-1445925598926-00U" visible="true" class="horizontal">
-								<layout1:content>
-									<m:Label design="Standard" id="np-sap_m_Label-1445921446784-0OJ" required="false" text="To" textAlign="Begin"
-						textDirection="Inherit" width="auto"/>
-					<m:Input dateFormat="YYYY-MM-dd" fieldWidth="50%" filterSuggests="true" id="np-sap_m_Input-1445921473508-0OL" maxLength="0"
-						showSuggestion="false" showTableSuggestionValueHelp="true" showValueHelp="false" startSuggestion="1" type="Text" valueHelpOnly="false"
-						valueLiveUpdate="false" width="150px">
-						<m:suggestionColumns/>
-						<m:suggestionItems/>
-						<m:suggestionRows/>
-					</m:Input>
-								</layout1:content>
-							</layout1:HorizontalLayout>
-						</layout:control>
-					</layout:PositionContainer>
-				</layout:positions>
-			</layout:AbsoluteLayout>
+			<!--		<layout:AbsoluteLayout horizontalScrolling="Auto" id="ABSOLUTE-lt1" verticalScrolling="Auto" height="70px">-->
+			<!--	<layout:positions>-->
+			<!--		<layout:PositionContainer id="ABSOLUTE-cw01" >-->
+			<!--			<layout:control >-->
+			<!--				<layout1:HorizontalLayout id="np-sap_ui_layout_HorizontalLayout-1445925598925-00U" visible="true" class="horizontal">-->
+			<!--					<layout1:content>-->
+			<!--						<m:Label design="Standard" id="np-sap_m_Label-1445921446783-0OJ" required="false" text="Distance from" textAlign="Begin"-->
+			<!--			textDirection="Inherit" width="auto"/>-->
+			<!--		<m:Input dateFormat="YYYY-MM-dd" fieldWidth="50%" filterSuggests="true" id="np-sap_m_Input-1445921473507-0OL" maxLength="0"-->
+			<!--			showSuggestion="false" showTableSuggestionValueHelp="true" showValueHelp="false" startSuggestion="1" type="Text" valueHelpOnly="false"-->
+			<!--			valueLiveUpdate="false" width="150px">-->
+			<!--			<m:suggestionColumns/>-->
+			<!--			<m:suggestionItems/>-->
+			<!--			<m:suggestionRows/>-->
+			<!--		</m:Input>-->
+			<!--					</layout1:content>-->
+			<!--				</layout1:HorizontalLayout>-->
+			<!--			</layout:control>-->
+			<!--		</layout:PositionContainer>-->
+			<!--	</layout:positions>-->
+			<!--</layout:AbsoluteLayout>-->
+			<!--<layout:AbsoluteLayout horizontalScrolling="Auto" id="ABSOLUTE-lt2" verticalScrolling="Auto" height="70px">-->
+			<!--	<layout:positions>-->
+			<!--		<layout:PositionContainer id="ABSOLUTE-cw02" >-->
+			<!--			<layout:control >-->
+			<!--				<layout1:HorizontalLayout id="np-sap_ui_layout_HorizontalLayout-1445925598926-00U" visible="true" class="horizontal">-->
+			<!--					<layout1:content>-->
+			<!--						<m:Label design="Standard" id="np-sap_m_Label-1445921446784-0OJ" required="false" text="To" textAlign="Begin"-->
+			<!--			textDirection="Inherit" width="auto"/>-->
+			<!--		<m:Input dateFormat="YYYY-MM-dd" fieldWidth="50%" filterSuggests="true" id="np-sap_m_Input-1445921473508-0OL" maxLength="0"-->
+			<!--			showSuggestion="false" showTableSuggestionValueHelp="true" showValueHelp="false" startSuggestion="1" type="Text" valueHelpOnly="false"-->
+			<!--			valueLiveUpdate="false" width="150px">-->
+			<!--			<m:suggestionColumns/>-->
+			<!--			<m:suggestionItems/>-->
+			<!--			<m:suggestionRows/>-->
+			<!--		</m:Input>-->
+			<!--					</layout1:content>-->
+			<!--				</layout1:HorizontalLayout>-->
+			<!--			</layout:control>-->
+			<!--		</layout:PositionContainer>-->
+			<!--	</layout:positions>-->
+			<!--</layout:AbsoluteLayout>-->
 					
 					<m:Label design="Standard" id="np-sap_m_Label-1445921501146-0ON" required="false" text="Athlete belongs to club" textAlign="Begin"
 						textDirection="Inherit" width="auto"/>
-					<m:ComboBox editable="true" enabled="true" id="np-sap_m_ComboBox-1445921578567-0OP" maxWidth="100%" selectedItemId="" selectedKey=""
-						showValueStateMessage="true" valueState="None" visible="true" width="192px">
+					<m:ComboBox editable="true" enabled="true" id="np-sap_m_ComboBox-1445921578567-0OP" maxWidth="100%" selectedItemId="" selectedKey="{search>/hasClub}"
+						showValueStateMessage="true" valueState="None" visible="true" width="192px" selectionChange="applyFilter">
 						<m:items>
-							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921578567-0OQ" text="Item 1" textDirection="Inherit"/>
-							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921578567-0OR" text="Item 2" textDirection="Inherit"/>
-							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921578567-0OS" text="Item 3" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921578567-0OQ" text="No" key="FALSE" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921578567-0OR" text="Yes" key="TRUE" textDirection="Inherit"/>
 						</m:items>
 					</m:ComboBox>
 					<m:Button class="searchButton" text="Search"></m:Button>
