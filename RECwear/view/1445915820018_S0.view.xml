@@ -112,7 +112,7 @@
 					</m:ComboBox>
 				</form:content>
 			</form:SimpleForm>
-			
+		<m:Button id="search_button" text="Search"></m:Button>
 		</m:content>
 		<m:footer/>
 		<m:headerContent/>
