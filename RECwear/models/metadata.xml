@@ -22,6 +22,7 @@
 				<Property Name="Name" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="Name" sap:updatable="true"/>
 				<Property Name="Age" Type="Edm.String" sap:creatable="true" sap:deletable="true" sap:label="Age" sap:updatable="true"/>
 			</EntityType>
+	
 		</Schema>
 	</edmx:DataServices>
 </edmx:Edmx>
