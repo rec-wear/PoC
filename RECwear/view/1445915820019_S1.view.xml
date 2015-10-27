@@ -10,10 +10,8 @@
 				<m:items>
 					<m:ColumnListItem id="np-sap_m_ColumnListItem-1445920619224-0GY" type="Active">
 						<m:cells>
-							<m:Image activeSrc="" decorative="true" densityAware="false" height="50px" id="np-sap_m_Image-1445920646099-0IL"
-								src="/public/resources/norman-ui-catalog-manager-client/assets/image-canvas.svg" width="50px"/>
-							<m:ObjectIdentifier id="np-sap_m_ObjectIdentifier-1445920668216-0IN" text="{name}" title="" titleActive="false" visible="true"/>
-							<m:ObjectNumber id="np-sap_m_ObjectNumber-1445920695040-0IP" number="{dateOfBirth}" state="None" unit=""/>
+							<m:Image activeSrc="" decorative="true" densityAware="false"  id="np-sap_m_Image-1445920646099-0IL"
+								src="/RECwear/resources/{profilePicture}" />
 						</m:cells>
 					</m:ColumnListItem>
 				</m:items>
@@ -29,20 +27,7 @@
 						</m:header>
 						<m:footer/>
 					</m:Column>
-					<m:Column demandPopin="true" hAlign="Begin" id="np-sap_m_Column_Supplier-1445920619243-0HG" mergeDuplicates="false"
-						mergeFunctionName="getText" minScreenWidth="Tablet" popinDisplay="Block" vAlign="Inherit" width="auto">
-						<m:header>
-							
-						</m:header>
-						<m:footer/>
-					</m:Column>
-					<m:Column demandPopin="true" hAlign="Begin" id="np-sap_m_Column_Price-1445920619243-0HI" mergeDuplicates="false" mergeFunctionName="getText"
-						minScreenWidth="Tablet" popinDisplay="Block" vAlign="Inherit" width="auto">
-						<m:header>
-						
-						</m:header>
-						<m:footer/>
-					</m:Column>
+
 				</m:columns>
 			</m:Table>
 		</m:content>

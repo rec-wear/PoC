@@ -38,14 +38,18 @@
 							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921387510-0NX" text="Male" textDirection="Inherit"/>
 						</m:items>
 					</m:ComboBox>
-					<m:Label design="Standard" id="np-sap_m_Label-1445921403007-0O4" required="false" text="Athlete role" textAlign="Begin"
+					<m:Label design="Standard" id="np-sap_m_Label-1445921403007-0O4" required="false" text="Athlete position" textAlign="Begin"
 						textDirection="Inherit" width="auto"/>
 					<m:ComboBox editable="true" enabled="true" id="np-sap_m_ComboBox-1445921421004-0O6" maxWidth="100%" selectedItemId="" selectedKey=""
 						showValueStateMessage="true" valueState="None" visible="true" width="192px">
 						<m:items>
-							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-0O7" text="Item 1" textDirection="Inherit"/>
-							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-0O8" text="Item 2" textDirection="Inherit"/>
-							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-0O9" text="Item 3" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-0O7" text="Catcher" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-0O8" text="Pitcher" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-0O9" text="First Base" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-010" text="Second Base" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-011" text="Third Base" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-012" text="Outfielder" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-013" text="Shortstop" textDirection="Inherit"/>
 						</m:items>
 					</m:ComboBox>
 					<m:Label design="Standard" id="np-sap_m_Label-1445921427397-0OF" required="false" text="GPA" textAlign="Begin" textDirection="Inherit"
